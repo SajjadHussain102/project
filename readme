@@ -1,0 +1,61 @@
+Task Manager MERN App
+Welcome to the Task Manager App! This is a simple yet powerful web application built using the MERN stack (MongoDB, Express.js, React, and Node.js). It allows you to manage your tasks with basic CRUD (Create, Read, Update, Delete) functionality, complete with user authentication. Whether you're organizing your day or collaborating on a project, this app has you covered!
+
+User Authentication: Register and log in securely with JWT (JSON Web Tokens).
+Task Management: Add, view, edit, and delete tasks with a clean interface.
+User-Specific Tasks: Each task is tied to the logged-in user for privacy.
+Responsive Design: Works smoothly on desktop browsers.
+
+Getting Started
+Prerequisites
+
+Node.js (v14+ recommended)
+MongoDB (local installation or MongoDB Atlas)
+npm (comes with Node.js)
+
+Installation
+
+Clone the Repository
+bashgit clone https://github.com/SajjadHussain102/project.git
+cd project
+
+Set Up the Backend
+
+Navigate to the backend folder:
+cd backend
+
+Install dependencies:
+npm install
+
+Create a .env file in the backend folder with:
+PORT=5000
+MONGO_URI=mongodb://localhost:27017  # Paste from MongoDB Atlas
+JWT_SECRET=password12  # Make up a strong secret (e.g., a random string like 'abc123xyz_secret')
+
+Start the backend:
+npm run dev
+
+Ensure MongoDB is running (e.g., mongod --dbpath C:\data\db on Windows).
+
+
+Set Up the Frontend
+
+Navigate to the frontend folder:
+cd frontend
+
+Install dependencies:
+npm install
+
+Start the frontend:
+npm start
+
+Open your browser at http://localhost:3000
+
+USAGE:
+
+Register a new account or log in with existing credentials.
+Once logged in, add tasks, mark them as complete, edit details, or delete them.
+Log out when you're done!
+
+Built with love using the MERN stack.
+Thanks to the open-source community for tools like React, Express, and Mongoose!
